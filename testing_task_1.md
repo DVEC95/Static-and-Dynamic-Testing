@@ -33,7 +33,10 @@ def self.cards_total(cards)
   total
   for card in cards
     total += card.value
+    #Total should be converted to string.
     return "You have a total of" + total
   end
+  #Return statement should be here.
 end
+#Missing "end".
 ```
