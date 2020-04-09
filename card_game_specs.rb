@@ -16,6 +16,9 @@ class TestCardGame < Minitest::Test
 
   def test_check_for_ace
     assert_equal(true, CardGame.check_for_ace(@card1))
+    assert_equal(false, CardGame.check_for_ace(@card2))
   end
+
+
 
 end
